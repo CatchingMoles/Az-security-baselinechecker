@@ -1,5 +1,4 @@
 # --- SECURITY ---
-# Jouw Private Key mag NOOIT op GitHub komen.
 private_key.xml
 *.pem
 *.key
