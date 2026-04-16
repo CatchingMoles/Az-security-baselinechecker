@@ -1,0 +1,36 @@
+# --- SECURITY ---
+# Jouw Private Key mag NOOIT op GitHub komen.
+private_key.xml
+*.pem
+*.key
+.env
+
+# --- PROJECT SPECIFIEK (LOCAL DATA) ---
+# Voorkom dat klantgegevens per ongeluk op GitHub belanden
+local_mapping.md
+ai_input.json
+client_security_report.md
+*.encrypted
+
+# --- POWERSHELL ---
+.history/
+*.log
+*.transcript.txt
+*.ps1.bak
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- EDITORS & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
